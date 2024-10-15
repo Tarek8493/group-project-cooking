@@ -24,7 +24,7 @@ ul.nav a:hover {
     color: white;
 }
 .active {
-    background-color: antiquewhite;
+    background-color:rgb(138, 105, 63);
 }
 .grid-container {
     display: grid;
@@ -91,7 +91,7 @@ ul.nav a:hover {
     font-size: 16px;
     border: none;
   }
-  
+
   
   .dropdown {
     position: relative;
@@ -132,7 +132,8 @@ ul.nav a:hover {
     background-color: rgb(138, 105, 63);
   }
 
-  a:link { text-decoration: none;} 
+
+a:link { text-decoration: none;} 
 a:visited { text-decoration: none; } 
 a:hover { text-decoration: none; } 
 a:active { text-decoration: none; }
