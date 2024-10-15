@@ -35,6 +35,50 @@
         height: 100px;
         width: 500px;
        }
+
+       li {
+        padding: 8px;
+       }
+       
+       .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(138, 105, 63);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
         </style>
         
 
@@ -66,26 +110,42 @@
 
         <div class="title2 grid-item2">
           <h1 style="text-align: left; margin-left: 80px; font-size: xxx-large;">Cooking Tips</h1>
-          <p style="text-align: left; margin-left: 80px; font-size: x-large;">This page provides various cooking tips to help you when preparing recipes!</p>
-          <p style="text-align: left; margin-left: 80px; font-size: x-large;">Specifically, this page covers Safety and Life Hacks.</p>   
+          <p style="text-align: left; margin-left: 80px; font-size: large;">This page provides various cooking tips to help you when preparing recipes!</p>
+          <p style="text-align: left; margin-left: 80px; font-size: large;">Specifically, this page covers Safety and Life Hacks. Hover over each image for a tip!</p>   
       </div>
 
 
 
       <div class="topimg2 grid-item2">
-        <a href="https://redhousespice.com/tomato-egg-noodle-soup/" target="_blank"><img src="images/noodles.png" style="width:700px"></a>
+        <div class="container">
+          <img src="images/burn.jpg" class="image">
+          <div class="overlay">
+            <div class="text">
+
+                <p>Never leave a fire unattended.</p>
+                <p>Wear oven mits when touching something hot.</p>
+                <p>Keep flammable objects away from the stove.</p>
+
+
+            </div>
+          </div>
+        </div>
+
+        
     </div>
     <div class="topsubtitle2 grid-item2" >
           <h3>Safety</h3>
     </div>
     <div class="toptext2 grid-item2" style="font-size: large;">
     <p>Cooking is a essential skill to learn. However, working in close proximity to heat can be dangerous.</p>
-    <p>Thus, we created a guide to preventing the most common kitchen injuries:</p>
+    <p>Here are some statistics of the most common cooking injuries:</p>
+
+<!-- NEW ELEMENT! (table) -->
 
     <table style="text-align: center;">
       <tr>
-        <th>Injury</th>
-        <th>Prevention Methods</th>
+        <th style="width: 100px;">Injury</th>
+        <th>Likelihood</th>
   
       </tr>
 
@@ -94,9 +154,9 @@
         <td>
 
           <ul>
-            <li>Never leave stove unattended</li>
-            <li>Cook while awake and alert</li>
-            <li>Move flammable materials</li>
+            <li>486,000 burn injuries occur per year!</li>
+            <li>Human exposure to hot water at 140°F can lead to a serious burn within three seconds. </li>
+            <li>72% of burns occur at home!</li>
           </ul>
 
         </td>
@@ -107,16 +167,22 @@
         <td>   
           
           <ul>
-          <li>Use cutting boards</li>
-          <li>Cook while awake and alert</li>
-          <li>Move flammable materials</li>
+          <li>350,000 people are injured by kitchen knives each year.</li>
+          <li>Cuts are among the most common cooking injuries.</li>
+          <li>Dull knives are more dangerous than sharp ones!</li>
         </ul>
 </td>
    
       </tr>
       <tr>
         <td>Falls</td>
-        <td>Doe</td>
+        <td>
+          <ul>
+            <li>67 % of workers in wet kitchens reported slips and falls at least once per month.</li>
+            <li>92 % of those working in wet kitchens said that the floor was slippery during the week.</li>
+            <li>Hazards include greasy floors, low lighting, and loose mats.</li>
+        </ul>
+        </td>
   
       </tr>
     </table>
@@ -139,6 +205,13 @@
   
     </div>
     </div>
+
+    <h2>Slide in Overlay from the Bottom</h2>
+    <p>Hover over the image to see the effect.</p>
+    
+  
+    
+
   
     <div class="footer">
         <p>Eva</p>
