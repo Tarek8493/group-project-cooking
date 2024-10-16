@@ -70,12 +70,12 @@ ul.nav a:hover {
 
 .topimg{
     grid-column: 1 / span 2;
-    grid-row: 2 / span 3;
+    grid-row: 2 / span 4;
 }
 
 .topimg2{
     grid-column: 1 / span 2;
-    grid-row: 3 / span 3;
+    grid-row: 3 / span 4;
 }
 
 .topsubtitle{
@@ -85,7 +85,7 @@ ul.nav a:hover {
 
 .topsubtitle2{
     grid-column: 3 / span 2;
-    grid-row: 3;
+    grid-row: 3
 }
 
 .toptext{
@@ -120,7 +120,7 @@ ul.nav a:hover {
 
 .lowertext{
     grid-column: 1 / span 2;
-    grid-row: 6 / span 25;
+    grid-row: 8 / span 26;
 }
 
 .lowertext2{
