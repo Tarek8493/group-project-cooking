@@ -8,8 +8,10 @@ body {
     padding: 0;
     overflow: visible;
     position: relative;
-    z-index: 99999;
+    z-index: 99999; 
+    /*NEW FEATURE (z-index) from Eva*/
 }
+
 ul.nav li {
     float: left;
 }
