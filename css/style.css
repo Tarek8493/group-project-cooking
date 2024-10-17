@@ -237,8 +237,8 @@ a { color:white }
 
 .image {
   display: block;
-  width: 100%;
-  height: auto;
+  width: 50%;
+  height: 50%;
 }
 
 .overlay {
@@ -246,9 +246,9 @@ a { color:white }
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #008CBA;
+  background-color: bisque;
   overflow: hidden;
-  width: 100%;
+  width: 50%;
   height: 0;
   transition: .5s ease;
 }
