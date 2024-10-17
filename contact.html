@@ -4,47 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Contact</title>
-<style>
-
-table, th, td {
-          border: 1px solid;
-          margin-left: auto;
-          margin-right: auto;
-       }
-
-       table {
-        width: auto;
-       }
-
-       th {
-        height: 100px;
-        width: 500px;
-       }
-
-       li {
-        padding: 8px;
-       }
-       
-       .container {
-        position:relative;
-        width: 50%;
-        margin-left: 155px
-       }
-
-       .footer {
-          position: fixed;
-          left: 0;
-          bottom: 0;
-          width: 100%;
-          background-color: bisque;
-          color: rgb(94, 75, 52);
-          text-align: center;
-          font-size: x-large;
-        }
-
-</style>
-
+    <title>Document</title>
+    <style>
+.longDescription {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    /* box-sizing: border-box; */
+  }
+  input[type=text]:focus {
+    background-color: lightgrey;
+  }
+      
+    </style>
 </head>
 <body style="zoom: 90%;" class="rocareg">
     <div class="nav">
@@ -71,68 +43,38 @@ table, th, td {
           <input type="JBesos@gmail.com" id="fname" name="firstname" placeholder="JBesos@gmail.com">
           <label for="lname">Phone Number</label>
           <input type="text" id="lname" name="lastname" placeholder="206-986-7635"></form></div>
+          <!-- NEW FEATURE -->
+          <form>
+            <label>Name:</label><br>
+            <input type="text"> <br>
+            <label>Email:</label><br>
+            <input type="text"><br>
+            <label>Phone Number:</label><br>
+            <input type="text"> <br>
+            <label>Description:</label><br>
+            <input type="text" class="longDescription"> <br>
+            <input type="submit" value="Submit">
+
+        </form>
+        <h4>
+          Email us here: <br>
+          <a href="mailto:johndoe@email.com">johndoe@email.com</a> <br>
+          Call us here <br>
+          <a href="tel:8007006000">+1 800-700-6000</a>
+   
+      </h4>
       </div>
-
-<br>
-      <table style="text-align: center;">
-        <tr>
-          <th style="width: 100px;">Person</th>
-          <th>Email</th>
-    
-        </tr>
-  
-        <tr>
-          <td>Eva</td>
-          <td>
-  
-            <ul>
-              <li>evchen@eastsideprep.org</li>
-            </ul>
-  
-          </td>
-  
-        </tr>
-        <tr>
-          <td>Nathan</td>
-          <td>   
-            
-            <ul>
-            <li>ntareke@eastsideprep.org</li>
-          </ul>
-  </td>
-     
-        </tr>
-        <tr>
-          <td>Tarek</td>
-          <td>
-            <ul>
-              <li>67 % of workers in wet kitchens reported slips and falls at least once per month.</li>
-     
-          </ul>
-          </td>
-    
-        </tr>
-
-    
-      <tr>
-        <td>Cameron</td>
-        <td>
-          <ul>
-            <li>67 % of workers in wet kitchens reported slips and falls at least once per month.</li>
-            <li>92 % of those working in wet kitchens said that the floor was slippery during the week.</li>
-            <li>Hazards include greasy floors, low lighting, and loose mats.</li>
-        </ul>
-        </td>
-  
-      </tr>
-      </table>
-
-      <br><br><br><br>
-  
-      <div class="footer">
-        <p>Nathan</p>
-      </div>
-  
-
+      <footer>
+        <p><center>Nathan T.<br></center></p>
+          <style>
+          footer {
+        text-align: center;
+        padding: 3px;
+        background-color: lightgoldenrodyellow;
+        color: brown;
+      }
+      
+        </style>
+      </footer>
     </body>
 </html>
