@@ -8,8 +8,10 @@ body {
     padding: 0;
     overflow: visible;
     position: relative;
-    z-index: 99999;
+    z-index: 99999; 
+    /*NEW FEATURE (z-index) from Eva*/
 }
+
 ul.nav li {
     float: left;
 }
@@ -85,7 +87,7 @@ ul.nav a:hover {
 
 .topsubtitle2{
     grid-column: 3 / span 2;
-    grid-row: 3
+    grid-row: 3 / span 4
 }
 
 .toptext{
@@ -137,6 +139,12 @@ ul.nav a:hover {
     grid-column: 1 / span 4;
     grid-row: 33 /span 3; 
     background-color: bisque;
+}
+
+.tips3{
+  grid-column: 1 / span 4;
+  grid-row: 12 /span 3; 
+  background-color: bisque;
 }
 
 .dropbtn {
@@ -237,8 +245,8 @@ a { color:white }
 
 .image {
   display: block;
-  width: 100%;
-  height: auto;
+  width: 50%;
+  height: 50%;
 }
 
 .overlay {
@@ -246,9 +254,9 @@ a { color:white }
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #008CBA;
+  background-color: bisque;
   overflow: hidden;
-  width: 100%;
+  width: 50%;
   height: 0;
   transition: .5s ease;
 }
