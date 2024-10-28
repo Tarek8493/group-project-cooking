@@ -5,6 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
+    <style>
+.longDescription {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    /* box-sizing: border-box; */
+  }
+  input[type=text]:focus {
+    background-color: lightgrey;
+  }
+      table, th, td {
+          border: 1px solid;
+          margin-left: auto;
+          margin-right: auto;
+       }
+
+       table {
+        width: auto;
+       }
+
+       th {
+        height: 100px;
+        width: 500px;
+       }
+
+       li {
+        padding: 8px;
+       }
+       
+       .container {
+        position:relative;
+        width: 50%;
+        margin-left: 155px
+       }
+    </style>
 </head>
 <body style="zoom: 90%;" class="rocareg">
     <div class="nav">
@@ -21,5 +56,71 @@
           </div>
         </div> 
       </div>
-</body>
+      <div class="container">
+        <div style="text-align:center">
+          <h2>Our contacts</h2>
+        </div> 
+      <div class="column">
+        <form action="/action_page.php">
+          <!-- NEW FEATURE -->
+          <form>
+            <label>Name:</label><br>
+            <input type="text"> <br>
+            <label>Email:</label><br>
+            <input type="text"><br>
+            <label>Phone Number:</label><br>
+            <input type="text"> <br>
+            <label>Description:</label><br>
+            <input type="text" class="longDescription"> <br>
+            <input type="submit" value="Submit">
+
+        </form>
+        <h4>
+          Email us here: <br>
+          <a href="mailto:johndoe@email.com">johndoe@email.com</a> <br>
+          Call us here <br>
+          <a href="tel:8007006000">+1 800-700-6000</a>
+   
+      </h4>
+      </div>
+      
+      
+    <table style="text-align: center;">
+
+      <tr>
+        <td>Name</td>
+        <td>Email</td>
+
+      </tr>
+      <tr>
+       <td>Cameron</td>
+       <td>cam@eastsideprep.org</td>
+      </tr>
+    <tr>
+       <td>Nathan</td>
+       <td>jeff@eastsideprep.org</td>
+      </tr>
+    <tr>
+       <td>Eva</td>
+       <td>eva@eastsideprep.org</td>
+      </tr>
+    <tr>
+       <td>Tarek</td>
+       <td>hi@eastsideprep.org</td>
+      </tr>
+    
+    </table>
+      <footer>
+        <p><center>Nathan T.<br></center></p>
+          <style>
+          footer {
+        text-align: center;
+        padding: 3px;
+        background-color: lightgoldenrodyellow;
+        color: brown;
+      }
+      
+        </style>
+      </footer>
+    </body>
 </html>
